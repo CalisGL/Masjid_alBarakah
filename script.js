@@ -1,5 +1,4 @@
 let calendar;
-const moisElement = document.getElementById("mois");
 
 // async function init() {
 //     try {
@@ -23,7 +22,9 @@ async function getCalendar() {
 
         const date = new Date();
         let month = date.getMonth(); // Vérifie si +1 est nécessaire
-        month += 2;
+        month += 1;
+        
+        const moisElement = document.getElementById("mois");
 
         console.log("Mois actuel :", month);
         console.log("Données du mois :", calendar[month]);
