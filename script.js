@@ -22,7 +22,6 @@ async function getCalendar() {
 
         const date = new Date();
         let month = date.getMonth(); // Vérifie si +1 est nécessaire
-        month += 1;
         
         const moisElement = document.getElementById("mois");
 

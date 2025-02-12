@@ -93,6 +93,10 @@ tbody tr:nth-child(even) {
     
 }
 
+.mobile {
+    height: 600px;
+}
+
 /* Palette :
 #121117
 #1E1D23
